@@ -1,0 +1,13 @@
+path:
+  out: /root/deco-oracle/zksnark/
+  MPC: /root/deco-oracle/zksnark/bin/c++/2pc/
+  libsnark: /root/deco-oracle/zksnark/bin/c++/jsnark_interface/
+  package: /root/deco-oracle/zksnark/bin/
+file:
+  circuit: redact_suffix_circuit.arith
+  input: redact_suffix_circuit.in
+  name: redact_suffix_circuit
+  prover: run_generate_prove
+  verifier: run_verify
+package:
+  generator: examples.generators.deco.RedactSuffixCircuitGenerator
